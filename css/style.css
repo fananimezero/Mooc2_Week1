@@ -42,4 +42,33 @@ body {
   p {
     line-height: 1.6;
   }
+  nav {
+    display: inline-block;
+    width: 80%;
+  }
   
+  /* Style only the image inside the nav element */
+  nav img {
+    width: 10%;
+  }
+  
+  /* Style the grid class for a two-column layout */
+  .grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-between;
+    align-items: start;
+    row-gap: 20px;
+  }
+  
+  /* Style only images inside the grid class */
+  .grid img {
+    width: 100%;
+  }
+  
+  /* Style the flex class */
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
